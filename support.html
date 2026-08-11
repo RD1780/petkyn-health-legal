@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — PetKyn Health</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f2f2f7;
+      --card: #ffffff;
+      --text: #1c1c1e;
+      --muted: #636366;
+      --border: #e5e5ea;
+      --accent: #121214;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121214;
+        --card: #1c1c1e;
+        --text: #ffffff;
+        --muted: #8e8e93;
+        --border: #2c2c2e;
+        --accent: #ffffff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+    }
+    h1 {
+      font-size: 2rem;
+      letter-spacing: -0.03em;
+      margin: 0 0 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 28px 0 10px;
+      letter-spacing: -0.02em;
+    }
+    p, li { color: var(--text); }
+    a { color: var(--accent); }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 6px; }
+    .summary {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 20px 0 8px;
+    }
+    .contact-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-top: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 4px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    th { width: 34%; color: var(--muted); font-weight: 600; }
+    footer {
+      margin-top: 24px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <h1>PetKyn Health Support</h1>
+      <p class="meta">Your pet's data, completely private &amp; offline.</p>
+
+      <div class="summary">
+        <p>
+          PetKyn Health is a private, offline pet health log. Track multiple pets, attach photos, search your timeline, and keep everything stored locally on your device—no account required.
+        </p>
+      </div>
+
+      <h2>Getting Started</h2>
+      <ol>
+        <li>Open the App and create your first pet profile with a name and optional photo.</li>
+        <li>Use <strong>Quick Log</strong> to record appetite, energy, stool, medication, water, weight, or other alerts.</li>
+        <li>Review entries in the <strong>Timeline</strong>, search by keyword, or filter by log type.</li>
+        <li>Tap the circular profile icon in the header to switch pets or add another profile.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions</h2>
+      <table>
+        <tr>
+          <th>Is my data uploaded to the cloud?</th>
+          <td>No. PetKyn Health stores pet profiles, logs, notes, and photos locally on your device.</td>
+        </tr>
+        <tr>
+          <th>Do I need an account?</th>
+          <td>No. The App works entirely offline after installation.</td>
+        </tr>
+        <tr>
+          <th>Can I track more than one pet?</th>
+          <td>Yes. Each pet has a separate profile and isolated log history.</td>
+        </tr>
+        <tr>
+          <th>How do I add another pet?</th>
+          <td>Tap the profile icon in the header, then choose <strong>+ Add New Pet</strong>.</td>
+        </tr>
+        <tr>
+          <th>How do I edit or delete a pet?</th>
+          <td>Long-press a pet on the profile selection screen, or long-press the active pet avatar in the dashboard header to edit. Deleting a pet permanently removes its logs and photos from your device.</td>
+        </tr>
+        <tr>
+          <th>Can I take or upload photos?</th>
+          <td>Yes. Where photos are supported, choose <strong>Choose Photo</strong> or <strong>Take Photo</strong>.</td>
+        </tr>
+        <tr>
+          <th>Is this veterinary advice?</th>
+          <td>No. PetKyn Health is a personal journal only. Always consult a licensed veterinarian for medical decisions.</td>
+        </tr>
+      </table>
+
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li><strong>Camera or Photos not working</strong> — Open iOS Settings → PetKyn Health → enable Camera and Photos.</li>
+        <li><strong>Missing data after reinstall</strong> — Data is stored locally. Uninstalling the App removes that data unless you have a device backup that includes app data.</li>
+        <li><strong>Wrong pet’s logs showing</strong> — Tap the profile icon in the header and switch to the correct pet.</li>
+        <li><strong>Photo missing on web preview</strong> — Web preview stores images in browser storage. If a photo disappears after refresh, re-attach it. Native iPhone builds store photos on device normally.</li>
+      </ul>
+
+      <h2>Medical Disclaimer</h2>
+      <p>
+        PetKyn Health is not a medical device and does not provide veterinary diagnosis, treatment, or emergency guidance. It is intended for personal record-keeping only. If your pet may be ill or injured, contact a licensed veterinarian or emergency clinic immediately.
+      </p>
+
+      <h2>Contact Support</h2>
+      <p>Need help, found a bug, or have a feature suggestion? Email us:</p>
+      <div class="contact-box">
+        <p><strong>Email:</strong> <a href="mailto:petkynhealth@gmail.com">petkynhealth@gmail.com</a></p>
+        <p><strong>Response time:</strong> We aim to reply within 2–3 business days.</p>
+        <p><strong>Please include:</strong></p>
+        <ul>
+          <li>Device model (e.g. iPhone 15)</li>
+          <li>iOS version</li>
+          <li>App version</li>
+          <li>A brief description of the issue and steps to reproduce it</li>
+        </ul>
+      </div>
+
+      <footer>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
